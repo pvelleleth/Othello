@@ -451,10 +451,5 @@ if __name__ == '__main__':
   main()
   # print(findMoves("...........................ox......xo...........................",'X'))
   # print(negamax("xxxxooooxxoxooooxxxooxooxxxxxxx..xxoooxxooxxoxxxoooxxxxxx.oxxxxx".upper(),"O"))
-  #depth=34
-  #print(quickMove("x.o......oo.....o.x..x....xxxx.....xxx..........................".upper(),'O'))
 
-# printBoard(boardArr)
-
-# Pranav Velleleth, pd 6, 2024
 

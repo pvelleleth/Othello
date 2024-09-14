@@ -1,9 +1,9 @@
 import sys; args = sys.argv[1:]
-# Mini moderator for Othello games in Dr. Gabor's AI
+# Mini moderator for Othello games
 # Arguments to the script, in any order, are:
 # Student Othello script file, token to start first game with, # of games
-# Defaults are: Othello4.py, 'x', 1
-# Sudent script file must define:
+# Defaults are: othello6.py, 'x', 1
+# file must define:
 # quickMove(brd, tkn), findMoves(brd, tkn), and makeMove(brd, tkn, move)
 # To use a different name, see:   # Import user's file here
 # To change the args that findMoves or makeMove is called with, see playGame()
@@ -138,4 +138,4 @@ else:
   print(f"\nScore: {mine}/{tkns} => {100*mine/tkns:.4g}%")
   print(f"Total time: {time.process_time()-tourneyStart:.4g}s")
 
-# Csaba Gabor, p8, 10 Dec 2021
+
