@@ -12,9 +12,9 @@ This repository contains an implementation of the classic board game Othello (al
 
 ## How to Run
 
-\`\`\`bash
+```bash
 python3 othello6.py x 4
-\`\`\`
+```
 
 - The first argument is the starting token (`x` or `o`).
 - The second argument is the number of games to simulate.
@@ -23,9 +23,9 @@ The script will read input files containing predefined board configurations and 
 
 ## Testing with miniMod.py
 
-\`\`\`bash
+```bash
 python3 minMod.py othello6.py x 4
-\`\`\`
+```
 
 - Arguments to the script are:
 - Othello script file, token to start first game with, # of games
